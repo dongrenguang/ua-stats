@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UA-Stats</title>
+    <script src="output/js/zepto.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="output/css/index.css">
+</head>
+<body>
+    <h2 class="title">浏览器User Agent统计</h2>
+    <form action="ua" method="post" class="form" onsubmit="void 0">
+        <p>请输入您的手机机型：</p>
+        <input class="input" type="text" placeholder="例如：华为 荣耀8">
+        <input type="submit" value="提交" class="submit" />
+    </form>
+    <p class="info">
+        <span>当前浏览器User Agent是：</span>
+        </br>
+        <span class="ua"></span>
+    </p>
+    <script src="output/js/index.js" charset="utf-8"></script>
+</body>
+</html>
